@@ -96,14 +96,12 @@ plot(t,s);
 ```
 
 Output Waveform:
-```
+
 <img width="1917" height="1196" alt="image" src="https://github.com/user-attachments/assets/22a2114c-2830-43af-95ef-15f5402bc573" />
-```
 
 TABULATION:
-```
+
 ![WhatsApp Image 2026-02-24 at 10 16 12](https://github.com/user-attachments/assets/a7f846be-e2e4-4abf-a806-227ad0dad7fa)
-```
 
 Calculation
 1.	ma (Theory) = am/ac =13.9/27.8=0.5
