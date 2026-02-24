@@ -75,23 +75,42 @@ Compare the original modulating signal with the demodulated signal. PROCEDURE
 •	If any Error, correct it in code and execute again
 •	Verify the generated waveform using Tabulation and Model Waveform
 
-Program
+Program:
+```
+Am=13.9;
+fm=506;
+Ac=27.8;
+fc=5060;
+fs=50600;
+t=0:1/fs:2/fm;
+m=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+c=Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,c);
+s=(Ac+m).*cos(2*3.14*fc*t);
+subplot(3,1,3);
+plot(t,s);
+```
 
 
 
-Output Waveform
+Output Waveform:
 
+<img width="1917" height="1196" alt="image" src="https://github.com/user-attachments/assets/22a2114c-2830-43af-95ef-15f5402bc573" />
 
 
 
 
 TABULATION:
 
+![WhatsApp Image 2026-02-24 at 10 16 12](https://github.com/user-attachments/assets/a7f846be-e2e4-4abf-a806-227ad0dad7fa)
 
 
 Calculation
-1.	ma (Theory) = am/ac =
-2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) =
+1.	ma (Theory) = am/ac =13.9/27.8=0.5
+2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) =28/55.8=0.5
 
 
 MODEL GRAPH
