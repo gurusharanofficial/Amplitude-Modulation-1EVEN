@@ -29,7 +29,6 @@ Amplitude Modulation is the process of changing the amplitude of a relatively hi
 3)	Over modulation:	m>1, Em > Ec
 
 
-
 Note: Keep all the switch faults in off position
 
 Algorithm
@@ -101,24 +100,16 @@ Output Waveform:
 <img width="1917" height="1196" alt="image" src="https://github.com/user-attachments/assets/22a2114c-2830-43af-95ef-15f5402bc573" />
 
 
-
-
 TABULATION:
 
 ![WhatsApp Image 2026-02-24 at 10 16 12](https://github.com/user-attachments/assets/a7f846be-e2e4-4abf-a806-227ad0dad7fa)
-
 
 Calculation
 1.	ma (Theory) = am/ac =13.9/27.8=0.5
 2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) =28/55.8=0.5
 
-
 MODEL GRAPH
  <img width="919" height="1290" alt="image" src="https://github.com/user-attachments/assets/55326c5b-7dd5-4873-aaf6-d219bb7c4420" />
-
- 
- 
-
 
 RESULT:
 Thus the amplitude modulation and demodulation is experimentally done and the output is verified.
