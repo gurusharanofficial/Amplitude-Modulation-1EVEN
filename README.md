@@ -4,18 +4,18 @@
 EXP NO: 1	GENERATION AND DETECTION OF AM
 
 AIM:
-```
+
 To generate and detect the amplitude modulation and demodulation u s i n g S C I L A B and to calculate modulation index of AM.
-```
+
 
 EQUIPMENTS REQUIRED
-```
+
 •	Computer with i3 Processor
+
 •	SCI LAB
-```
+
 
 THEORY:
-```
 Modulation can be defined as the process by which the characteristics of carrier wave are varied in accordance with the modulating wave (signal). Modulation is performed in a transmitter by a circuit called a modulator.
 Need for modulation is as follows:
 •	Avoid mixing of signals
@@ -29,10 +29,10 @@ Amplitude Modulation is the process of changing the amplitude of a relatively hi
 2)	Critical modulation: m-1, Em = Ec
 3)	Over modulation:	m>1, Em > Ec
 Note: Keep all the switch faults in off position
-```
+
 
 Algorithm
-```
+
 1.	Define Parameters
 First, define the parameters for your signals:
 •	Carrier frequency (fc)
@@ -74,7 +74,7 @@ Compare the original modulating signal with the demodulated signal. PROCEDURE
 •	Execute the code
 •	If any Error, correct it in code and execute again
 •	Verify the generated waveform using Tabulation and Model Waveform
-```
+
 
 Program:
 ```
